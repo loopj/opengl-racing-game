@@ -1,0 +1,24 @@
+#################################
+# Default Race Game Config File #
+#################################
+
+# Start the game fullscreen?
+fullscreen = 0
+
+# Screen Resolution Width
+xres = 640
+
+# Screen Resolution Height
+yres = 480
+
+# Bits per Pixel
+bpp = 16
+
+# Enable Audio?
+audio = 1
+
+# Show FPS Counter?
+showfps = 0
+
+# Print Debug Messages?
+debug = 0

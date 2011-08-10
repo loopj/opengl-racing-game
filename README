@@ -1,0 +1,116 @@
+Race Game
+Version 0.5
+by foobar and judeo
+
+Copyleft (GPL) 2002 (See COPYING for details):
+foobar   (foobar@void.printf.net)
+judeo    (judegomila@hotmail.com)
+
+############
+# WANTED!! #
+############
+
+o Bug Testers
+o Level Designers
+o Feature Suggestions
+o All Comments
+
+###############
+# Readme File #
+###############
+Aims to be similar to high speed racing games Star Wars:
+Episode One Racer and Wipeout in gameplay and graphics.
+
+Latest version from our website http://projectz.ath.cx/
+
+#############
+# Features: #
+#############
+
+ Complete/In Progress:
+ ====================
+   Model and Texture Loading
+   Texture Coordinates
+   Object Speed/Accelleration
+   Air resistance
+   Skybox
+   Maximum Speed
+   Acceleration Variable
+   Timings of redraw
+   Rotation Response Accel
+   Ship Rotation
+   Fixed Rotation Keylock
+   Realistic Looking Turning
+   Air Brakes (Faster Deccel)
+   Load Textures/Map as Needed
+   Loading Screen
+   Fixed Ship Drift
+   Dynamic Level Loading
+   Menu + Navigation
+   Better Texture Loading
+   Nice Error Function
+   Sound and Music
+   Text Masking (Alpha Channel)
+   Better Map Loading
+   Debug Messages
+   
+   HUD:
+    o Timer
+    o Radar
+    o Framerate
+    o Speed
+
+   Config File:
+    o Screen Resolution	
+    o Screen Depth
+    o Audio Toggle
+    o Fullscreen Toggle
+    o Debug Toggle
+    o FPS Toggle
+
+   Messages:
+    o Error	-> msg & exit
+    o Warning	-> msg
+    o Debug	-> info
+
+
+ To Implement:
+ ============
+   Angle Detection:
+    o Wall detection
+    o x and z-axis tilting
+    o Crashing and Damage
+    o Falling from High
+    o Bouncing off Walls
+    o Impacts/Surface Change
+   Boundary detection (broken)
+   Nicer Physics Engine
+   Lap Counter
+   Opponents and AI
+   Environment/Object Loading
+   Lighting
+   Reflections
+   Jet Particle Effect
+
+############
+# Gameplay #
+############
+
+This is in essence just a demo of what is to come, the main
+racing features such as lap timing, lap counting, and AI
+racers are far from complete, so just enjoy the eye candy.
+
+The default keys are:
+
+Forward:	W
+Backward:	S
+Left:		A
+Right:		D
+Air Brake:	Space
+Fullscreen:	F1
+
+These keys can be changed by editing the config file, which
+is fairly self explanatory.
+
+Have fun 
+	- foobar
