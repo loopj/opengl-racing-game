@@ -23,6 +23,9 @@ SDL_image and Devel (http://www.libsdl.org/projects/SDL_image)
 OpenGL (gl.h and glu.h)
 a working compiler
 
+On a mac with homebrew run: brew install sdl sdl_mixer sdl_image
+On ubuntu run: apt-get install libsdl1.2-dev libsdl-mixer1.2-dev libsdl-image1.2-dev freeglut3-dev
+
 ##################
 # Install Guide: #
 ##################
