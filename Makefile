@@ -9,7 +9,7 @@ BIN = race
 CFLAGS  = `sdl-config --cflags` -std=c99
 LDFLAGS = `sdl-config --libs` -lSDL_image -lSDL_mixer -lm
 
-UNAME = $(shell uname)
+UNAME = $(shell uname -s)
 ifeq ($(UNAME), Darwin)
 	LDFLAGS += -framework GLUT -framework OpenGL
 endif
