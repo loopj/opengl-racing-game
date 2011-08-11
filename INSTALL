@@ -3,8 +3,8 @@ Version 0.5
 by foobar and judeo
 
 Copyleft (GPL) 2002:
-foobar (foobark@void.printf.net)
-judeo  (judegomila@hotmail.com)
+foobar
+judeo
 
 This package has a crappy Makefile, but will built on most
 Linux systems where the dependancies are present.
@@ -15,7 +15,7 @@ Have successfully built on the following systems:
 * Others Wanted
 
 ################
-# Dependancies #
+# Dependencies #
 ################
 SDL and Devel (http://www.libsdl.org)
 SDL_mixer and Devel (http://www.libsdl.org/projects/SDL_mixer)
@@ -26,12 +26,6 @@ a working compiler
 ##################
 # Install Guide: #
 ##################
-To Install on i386 based Linux Systems Type:
+To build on Linux/FreeBSD/OSX/Cygwin systems type:
   make
   ./race
-
-In Windows / Cygwin:
-  mv Makefile Makefile.linux
-  mv Makefile.w32 Makefile
-  make
-  ./race.exe

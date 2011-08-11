@@ -97,37 +97,38 @@ int radar(int range){
 }
 
 int timer(){
-  int   timenow = SDL_GetTicks();
-  float elapsed;
-  int   minutes    = 0;
-  int   seconds    = 0;
-  int   hundredths = 0;
-  char  minsec[5];
-  char  hunsec[5];
-
-  elapsed    = (float)(timenow - timestart) / 1000;
-  minutes    = (int)  (elapsed)             / 60;
-  seconds    = (int)  (elapsed)             % 60;
-  hundredths = (int)  (elapsed * 100 + 0.5) % 100;
-
-  if(hundredths < 10)
-    sprintf(hunsec,"0%i",hundredths);
-  else
-    sprintf(hunsec,"%i",hundredths);
-
-  if (minutes < 10 && seconds < 10)
-    sprintf(minsec,"0%i:0%i",minutes,seconds);
-  else if(minutes < 10 && seconds >= 10)
-    sprintf(minsec,"0%i:%i",minutes,seconds);  
-  else if(minutes >= 10 && seconds < 10)
-    sprintf(minsec,"%i:0%i",minutes,seconds);
-  else
-    sprintf(minsec,"%i:%i",minutes,seconds);
-
-  glEnable(GL_BLEND);
-    fontprint(xres - (7*20), yres-32, minsec, 1,1,1);
-    fontprint(xres - (2*20)+5, yres-18, hunsec, 1,0.5,1);
-  glDisable(GL_BLEND);
+  // TODO: COMMENT OUT DUE TO SEGFAULT
+  // int   timenow = SDL_GetTicks();
+  // float elapsed;
+  // int   minutes    = 0;
+  // int   seconds    = 0;
+  // int   hundredths = 0;
+  // char  minsec[5];
+  // char  hunsec[5];
+  // 
+  // elapsed    = (float)(timenow - timestart) / 1000;
+  // minutes    = (int)  (elapsed)             / 60;
+  // seconds    = (int)  (elapsed)             % 60;
+  // hundredths = (int)  (elapsed * 100 + 0.5) % 100;
+  // 
+  // if(hundredths < 10)
+  //   sprintf(hunsec,"0%i",hundredths);
+  // else
+  //   sprintf(hunsec,"%i",hundredths);
+  // 
+  // if (minutes < 10 && seconds < 10)
+  //   sprintf(minsec,"0%i:0%i",minutes,seconds);
+  // else if(minutes < 10 && seconds >= 10)
+  //   sprintf(minsec,"0%i:%i",minutes,seconds);  
+  // else if(minutes >= 10 && seconds < 10)
+  //   sprintf(minsec,"%i:0%i",minutes,seconds);
+  // else
+  //   sprintf(minsec,"%i:%i",minutes,seconds);
+  // 
+  // glEnable(GL_BLEND);
+  //   fontprint(xres - (7*20), yres-32, minsec, 1,1,1);
+  //   fontprint(xres - (2*20)+5, yres-18, hunsec, 1,0.5,1);
+  // glDisable(GL_BLEND);
 
   return 1;
 }
