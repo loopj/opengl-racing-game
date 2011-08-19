@@ -6,10 +6,10 @@
 fullscreen = 0
 
 # Screen Resolution Width
-xres = 640
+xres = 1024
 
 # Screen Resolution Height
-yres = 480
+yres = 768
 
 # Bits per Pixel
 bpp = 16

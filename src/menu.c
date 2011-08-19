@@ -28,7 +28,7 @@ int loadmenu(void){
 
 int initmenu(void){
 
-  playmusic("data/music/lktheme.mod");
+  playmusic("data/music/sensation.mp3");
   
   return 1;
 }

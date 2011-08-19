@@ -39,7 +39,7 @@ int initgame(){
   player.z   	= -1000;
 
   debugf("Reset Player Variables");
-  playmusic("data/music/fuck.xm");
+  playmusic("data/music/growler.mp3");
   newgame = 0;
   timestart = SDL_GetTicks();
   printf("\nLoaded Map:\n  %s (data/%s)\n  %s\n\n",

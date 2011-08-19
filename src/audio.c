@@ -46,17 +46,16 @@ int playsound(char *sound, int repeat){
 }
 
 int playmusic(char *musicfile){
-  // TODO: COMMENT OUT DUE TO SEGFAULT
-  // if(audio){
-  //   music = Mix_LoadMUS(musicfile);
-  // 
-  //   if(music == NULL)
-  //     warning("Failed to load music: %s",musicfile);
-  //   else
-  //     debugf("Playing Music: %s",musicfile);
-  // 
-  //   Mix_PlayMusic(music, -1);
-  // }
+  if(audio){
+    music = Mix_LoadMUS(musicfile);
+  
+    if(music == NULL)
+      warning("Failed to load music: %s",musicfile);
+    else
+      debugf("Playing Music: %s",musicfile);
+  
+    Mix_PlayMusic(music, -1);
+  }
   
   return 1;
 }
