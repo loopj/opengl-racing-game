@@ -2,12 +2,8 @@ Race Game
 Version 0.5
 by foobar and judeo
 
-Copyleft (GPL) 2002:
-foobar
-judeo
-
 This package has a crappy Makefile, but will built on most
-Linux systems where the dependancies are present.
+Linux systems where the dependencies are present.
 
 Have successfully built on the following systems:
 * Debian 3.0 x86, 2.4.18 kernel, NVidiaGL 2960

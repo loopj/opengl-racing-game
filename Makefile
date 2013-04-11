@@ -1,8 +1,3 @@
-##########################
-# foobar's Makefile      #
-# Object Based version 2 #
-##########################
-
 CC  = gcc -Wall -ansi
 BIN = race
 
